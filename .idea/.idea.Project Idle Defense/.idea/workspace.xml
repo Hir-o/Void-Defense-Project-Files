@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b954b89c-8eed-41a5-8e2b-fb03a17a7877" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainTurret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScroll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PreesAnyKey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIElements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DissolveShaderController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/SphereDissolve_cutout.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PriceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleDisabler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimatorParam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddToEnemyList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OpenDiscord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorChangerOnHover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShowPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIUpdater.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TMPBlocked.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkillUpgradeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeSkillsStatsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported Assets/Hyperbit Arsenal/Demo/Scripts/HyperbitButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyStatsPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported Assets/Hyperbit Arsenal/Demo/Scripts/HyperbitFireProjectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported Assets/BayatGames/Utilities/SceneManager/Editor/SceneManagerWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonColorChanger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AutoMortar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkillStatsPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeSecondaryTurretsStatsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AutoOvercharge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkipWaves.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported Assets/Kino/Glitch/DigitalGlitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported Assets/Kino/Glitch/AnalogGlitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneAutoSaver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotateSelf.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectDisabler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CheckAudioToggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeMainTurretStatsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RangeLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectCleaner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkillsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LaserTurret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TooltipTextArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkillUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerBlast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToggleAudio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EmpBlast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovementJobSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SecondaryTurret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeCountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MortarProjectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMPro_Private.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadGameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectReferenceHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeResourcesStatsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyResourceDrop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TMPCrit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeMortarStatsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraResetPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveGameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyTagChanger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TurretController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainUpgradeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainTurretController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported Assets/Hyperbit Arsenal/Scripts/HyperbitBeamScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MortarTurretController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveStatsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SecondaryTurretController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AGLink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MortarTurret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadingBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesUpgradeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CheckEnemyInList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported Assets/SlimUI/Tech Menu/Scripts/UIManagerTech.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShakeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnPoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkillButtons.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorCodes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeCountDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LaserTurretController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TileVania/Assets/Scripts/Menu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AutoNextWave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Kongregate SDK/KongregateAPIBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Lit Dissolve DoubleTex.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tags.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimatorParameters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ParticleDisabler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradeCountController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Imported Assets/SlimUI/Tech Menu/Scripts/UIManagerTech.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradealbeButtonsColorAlphaChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonColorChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIUpdater.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AutoNextWave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaveStatsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColorChangerOnHover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColorCodes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkillUnlocker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkillButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpdateUpgradeCountDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradeCountDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesUpgradeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyResourceDrop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RotateSelf.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyStatsPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MortarTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SecondaryTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MortarProjectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneAutoSaver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LaserTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainTurretController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SecondaryTurretController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LaserTurretController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectReferenceHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainUpgradeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MortarTurretController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaveText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OpenDiscord.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CheckAudioToggle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveGameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkillUpgradeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkillStatsPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkillsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AGLink.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RyIZ1hB0lToX3j8syzZ1pTlAVH" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="8508">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="8508" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b954b89c-8eed-41a5-8e2b-fb03a17a7877" name="Default Changelist" comment="" />
+      <created>1570632960408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570632960408</updated>
+      <workItem from="1570632962212" duration="5097000" />
+      <workItem from="1570645660883" duration="12781000" />
+      <workItem from="1570716789839" duration="6332000" />
+      <workItem from="1570737588395" duration="7824000" />
+      <workItem from="1570778814256" duration="2705000" />
+      <workItem from="1570791284798" duration="14048000" />
+      <workItem from="1570887776599" duration="1874000" />
+      <workItem from="1570896047470" duration="3454000" />
+      <workItem from="1570905531468" duration="7857000" />
+      <workItem from="1571042460234" duration="16737000" />
+      <workItem from="1571127548993" duration="4163000" />
+      <workItem from="1571135028543" duration="17240000" />
+      <workItem from="1571211917879" duration="7258000" />
+      <workItem from="1571389383876" duration="13793000" />
+      <workItem from="1571435922819" duration="621000" />
+      <workItem from="1571489488078" duration="2746000" />
+      <workItem from="1571661978029" duration="6820000" />
+      <workItem from="1571683792722" duration="10986000" />
+      <workItem from="1571735938099" duration="7180000" />
+      <workItem from="1571818533426" duration="5714000" />
+      <workItem from="1571858260686" duration="1165000" />
+      <workItem from="1571859532760" duration="503000" />
+      <workItem from="1571906457945" duration="14321000" />
+      <workItem from="1571945016982" duration="3452000" />
+      <workItem from="1571996100074" duration="448000" />
+      <workItem from="1571998108564" duration="3199000" />
+      <workItem from="1572083453604" duration="9962000" />
+      <workItem from="1572256844065" duration="17279000" />
+      <workItem from="1572275498935" duration="95000" />
+      <workItem from="1572276596820" duration="2466000" />
+      <workItem from="1572287875846" duration="4716000" />
+      <workItem from="1572351031242" duration="5515000" />
+      <workItem from="1572442551926" duration="11374000" />
+      <workItem from="1572469884512" duration="180000" />
+      <workItem from="1572526725413" duration="784000" />
+      <workItem from="1572539651405" duration="4498000" />
+      <workItem from="1572795891738" duration="437000" />
+      <workItem from="1572857939027" duration="24392000" />
+      <workItem from="1572948087680" duration="10883000" />
+      <workItem from="1573063146834" duration="734000" />
+      <workItem from="1573118107371" duration="11742000" />
+      <workItem from="1573204107139" duration="7391000" />
+      <workItem from="1573466698559" duration="21149000" />
+      <workItem from="1573567719163" duration="8212000" />
+      <workItem from="1573592764705" duration="2913000" />
+      <workItem from="1573644716933" duration="6113000" />
+      <workItem from="1573722136554" duration="18583000" />
+      <workItem from="1573811975741" duration="11437000" />
+      <workItem from="1573912688665" duration="8355000" />
+      <workItem from="1574069994840" duration="4444000" />
+      <workItem from="1574078446154" duration="12313000" />
+      <workItem from="1574239264974" duration="17966000" />
+      <workItem from="1574328658356" duration="4481000" />
+      <workItem from="1574345083152" duration="3109000" />
+      <workItem from="1574355386899" duration="1887000" />
+      <workItem from="1574366336966" duration="2972000" />
+      <workItem from="1574418877698" duration="4348000" />
+      <workItem from="1574466143015" duration="4579000" />
+      <workItem from="1574513793849" duration="2211000" />
+      <workItem from="1574702039539" duration="1638000" />
+      <workItem from="1574762265579" duration="9243000" />
+      <workItem from="1574777140646" duration="2245000" />
+      <workItem from="1574802500064" duration="4002000" />
+      <workItem from="1574854745437" duration="13327000" />
+      <workItem from="1574953685738" duration="5086000" />
+      <workItem from="1575022085448" duration="8177000" />
+      <workItem from="1575109314006" duration="10881000" />
+      <workItem from="1575285583109" duration="14566000" />
+      <workItem from="1575372755860" duration="14800000" />
+      <workItem from="1575399763031" duration="6709000" />
+      <workItem from="1575454589733" duration="3440000" />
+      <workItem from="1575458688251" duration="871000" />
+      <workItem from="1575464452231" duration="7519000" />
+      <workItem from="1575548007749" duration="12071000" />
+      <workItem from="1575633373843" duration="4534000" />
+      <workItem from="1575728530768" duration="1649000" />
+      <workItem from="1575895206185" duration="10576000" />
+      <workItem from="1575926168615" duration="4920000" />
+      <workItem from="1575979548745" duration="2106000" />
+      <workItem from="1576246531641" duration="3336000" />
+      <workItem from="1576404429200" duration="1299000" />
+      <workItem from="1576505767919" duration="1005000" />
+      <workItem from="1576584876383" duration="3210000" />
+      <workItem from="1576855679957" duration="1670000" />
+      <workItem from="1581446143054" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

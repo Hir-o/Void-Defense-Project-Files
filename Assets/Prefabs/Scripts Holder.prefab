@@ -1,0 +1,2978 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &14833352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 14833353}
+  - component: {fileID: 14833354}
+  m_Layer: 0
+  m_Name: '@Upgrade Count Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &14833353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14833352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &14833354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14833352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05629057c9608444a63fabae20b32d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainTurretTotalHealthUpgradeCount: 10
+  MainTurretProjectileDamageUpgradeCount: 15
+  MainTurretProjectileThrustUpgradeCount: 6
+  MainTurretFireRateUpgradeCount: 5
+  MainTurretTurnSpeedUpgradeCount: 6
+  MainTurretRangeUpgradeCount: 9
+  MainTurretRegenUpgradeCount: 10
+  MainTurretLifestealUpgradeCount: 10
+  MainTurretDefenseUpgradeCount: 10
+  MainTurretBlockChanceUpgradeCount: 10
+  MainTurretBounceChanceUpgradeCount: 10
+  MainTurretBounceAmountUpgradeCount: 10
+  MainTurretCritChanceUpgradeCount: 10
+  MainTurretCritDamageUpgradeCount: 10
+  ResourcesEnergyBonusUpgradeCount: 6
+  ResourcesEnergyEfficiencyUpgradeCount: 5
+  ResourcesEnergyDropRateUpgradeCount: 6
+  ResourcesScienceBonusUpgradeCount: 7
+  ResourcesScienceEfficiencyUpgradeCount: 4
+  ResourcesScienceDropRatUpgradeCounte: 0
+  SkillOverchargeCoolDownUpgradeCount: 5
+  SkillOverchargeActiveTimeUpgradeCount: 6
+  SkillOverchargePowerupUpgradeCount: 8
+  SkillEMPCoolDownUpgradeCount: 5
+  SkillEMPStunDurationUpgradeCount: 3
+  SkillSecondaryTurretsCoolDownUpgradeCount: 7
+  SkillSecondaryTurretsActiveTimeUpgradeCount: 5
+  SkillSecondaryTurretsDamageUpgradeCount: 10
+  SkillSecondaryTurretsProjectileThrustUpgradeCount: 5
+  SkillSecondaryTurretsFireRateUpgradeCount: 7
+  SkillSecondaryTurretsTurnSpeedUpgradeCount: 7
+  SkillSecondaryTurretsRangeUpgradeCount: 6
+  SkillLaserCoolDownUpgradeCount: 7
+  SkillLaserActiveTimeUpgradeCount: 5
+  SkillLaserDamageUpgradeCount: 9
+  SkillLaserTurnSpeedUpgradeCount: 4
+  SkillLaserRangeUpgradeCount: 5
+  SkillMortarCoolDownUpgradeCount: 7
+  SkillMortarActiveTimeUpgradeCount: 5
+  SkillMortarDamageUpgradeCount: 10
+  SkillMortarFireRateUpgradeCount: 6
+  SkillMortarRangeUpgradeCount: 5
+  SkillEnergyBlastCoolDownUpgradeCount: 6
+  SkillEnergyBlastDamageUpgradeCount: 5
+--- !u!1 &217770478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 217770480}
+  - component: {fileID: 217770479}
+  m_Layer: 0
+  m_Name: '@Job System'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &217770480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217770478}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.8231468, y: -1.1258554, z: -4.4826627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &217770479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217770478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d6b250180797142bb60b1202ef0c2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3,
+    type: 3}
+--- !u!1 &680541600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 680541601}
+  - component: {fileID: 680541602}
+  m_Layer: 0
+  m_Name: '@Mouse Manager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &680541601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680541600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &680541602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680541600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e4d46096f96544a828e38b764db198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickableLayer:
+    serializedVersion: 2
+    m_Bits: 2048
+--- !u!1 &707103117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 707103118}
+  - component: {fileID: 707103119}
+  m_Layer: 0
+  m_Name: '@Sound Manager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &707103118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707103117}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &707103119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707103117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50823985f790fc94abb3f71f2ac186d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundCapResetSpeed: 0.55
+  maxSoundsMainTurret: 5
+  maxSoundsSecondaryTurret: 9
+  maxSoundsMortarTurret: 2
+  maxSoundsMainTurretImpact: 2
+  maxSoundsSecondaryImpact: 2
+  maxSoundsMortarImpact: 2
+  mainTurretProjectileSound: {fileID: 8300000, guid: a688b479dadac0141ab9356f765067ce,
+    type: 3}
+  secondaryTurretProjectileSound: {fileID: 8300000, guid: fdbc18edd950bf74ba6ef63190b4362c,
+    type: 3}
+  mortarTurretProjectileSound: {fileID: 8300000, guid: e82628ef13bdd0e4c9bf8b6f5995bd88,
+    type: 3}
+  mainTurretProjectileImpactSound: {fileID: 8300000, guid: c55513aabcb471b47a3524803d19490d,
+    type: 3}
+  secondaryTurretProjectileImpactSound: {fileID: 8300000, guid: a688b479dadac0141ab9356f765067ce,
+    type: 3}
+  mortarTurretProjectileImpactSound: {fileID: 8300000, guid: 3acc83dfe918e51439a7d51429ccb75d,
+    type: 3}
+  overchargeSound: {fileID: 8300000, guid: 57a830838bddfe94cb8d2e5c8407f6d8, type: 3}
+  empSound: {fileID: 8300000, guid: 3aa26c9fdb19b364bb6237960650a18e, type: 3}
+  energyBlastSound: {fileID: 8300000, guid: 98b50b98a1fd64b4d8c147173ec1dbc9, type: 3}
+  secondaryTurretDeploySound: {fileID: 8300000, guid: ca63092de250105488e01c2bdfdb6d95,
+    type: 3}
+  laserDeploySound: {fileID: 8300000, guid: 067abb6c03add924c8a335509b3b8e41, type: 3}
+  mortarDeploySound: {fileID: 8300000, guid: 7aad26fee43bc354ca5062a861bd2f71, type: 3}
+  mainTurretProjectileVolume: 0.8
+  mainTurretProjectileImpactVolume: 0.9
+  secondaryTurretProjectileVolume: 0.5
+  secondaryTurretProjectileImpactVolume: 0.9
+  mortarProjectileVolume: 0.75
+  mortarProjectileImpactVolume: 0.7
+  overchargeVolume: 0.8
+  empVolume: 0.8
+  energyBlastVolume: 0.8
+--- !u!1 &741863344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 741863345}
+  - component: {fileID: 741863346}
+  m_Layer: 0
+  m_Name: '@Save Game Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &741863345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741863344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &741863346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741863344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6cef10f0598eb4a971664a7ce1e952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &760849452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760849453}
+  - component: {fileID: 760849454}
+  m_Layer: 0
+  m_Name: '@Price Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &760849453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760849452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &760849454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760849452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68de3a880dd18724db7a0b2ee0abeac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradePriceMultiplier: 1.1
+  upgradeOverchargeCooldownPriceMultiplier: 5
+  upgradeOverchargeActiveTimePriceMultiplier: 2.7
+  upgradeOverchargePowerupPriceMultiplier: 2.24
+  upgradeEMPCooldownPriceMultiplier: 4.1
+  upgradeEMPStunDurationPriceMultiplier: 6.3
+  upgradeEnergyBlastCooldownPriceMultiplier: 2.36
+  upgradeEnergyBlastDamagePriceMultiplier: 2.1
+  upgradeMainTurretDamagePriceMultiplier: 1.72
+  upgradeMainTurretProjectileSpeedPriceMultiplier: 3
+  upgradeMainTurretFireRatePriceMultiplier: 3.4
+  upgradeMainTurretTurnSpeedPriceMultiplier: 4
+  upgradeMainTurretRangePriceMultiplier: 2.5
+  upgradeMainTurretRegenPriceMultiplier: 2.15
+  upgradeMainTurretLifeStealPriceMultiplier: 1.85
+  upgradeMainTurretDefensePriceMultiplier: 2.2
+  upgradeMainTurretBlockChancePriceMultiplier: 1.95
+  upgradeMainTurretCritChancePriceMultiplier: 2.15
+  upgradeMainTurretCritDamagePriceMultiplier: 2.15
+  upgradeMainTurretBounceChancePriceMultiplier: 2.15
+  upgradeSecondaryTurretsCoolDownPriceMultiplier: 3.2
+  upgradeSecondaryTurretsActiveTimePriceMultiplier: 4.6
+  upgradeSecondaryTurretsDamagePriceMultiplier: 2.5
+  upgradeSecondaryTurretsProjectileSpeedPriceMultiplier: 4.5
+  upgradeSecondaryTurretsFireRatePriceMultiplier: 3
+  upgradeSecondaryTurretsTurnSpeedPriceMultiplier: 6
+  upgradeSecondaryTurretsRangePriceMultiplier: 4
+  upgradeLaserCoolDownPriceMultiplier: 3.2
+  upgradeLaserActiveTimePriceMultiplier: 4.6
+  upgradeLaserDamagePriceMultiplier: 2.65
+  upgradeLaserTurnSpeedPriceMultiplier: 6.5
+  upgradeLaserRangePriceMultiplier: 5.6
+  upgradeMortarCoolDownPriceMultiplier: 3.2
+  upgradeMortarActiveTimePriceMultiplier: 4.5
+  upgradeMortarDamagePriceMultiplier: 2.57
+  upgradeMortarFireRatePriceMultiplier: 4.5
+  upgradeMortarRangePriceMultiplier: 4.5
+  upgradeEnergyBonusPriceMultiplier: 3.1
+  upgradeEnergyEfficiencyPriceMultiplier: 3.5
+  upgradeEnergyDropRatePriceMultiplier: 2.28
+  upgradeScienceBonusPriceMultiplier: 2.57
+  upgradeScienceEfficiencyPriceMultiplier: 4.7
+  upgradeScienceDropRatePriceMultiplier: 0
+--- !u!1 &881539821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 881539822}
+  - component: {fileID: 881539823}
+  m_Layer: 0
+  m_Name: '@Dissolve Shader Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &881539822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881539821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &881539823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881539821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48e2abd3b896ab040b65a4f0302ef0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundDissolveRenderer: {fileID: 0}
+  radius: 16
+  radiusIncreaseAmount: 0.5
+  step: 0.01
+--- !u!1 &908561843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 908561844}
+  - component: {fileID: 908561845}
+  m_Layer: 0
+  m_Name: '@Camera Scroll Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &908561844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908561843}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &908561845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908561843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26bfd14b8653284a97ee4b48fb36ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minZoomValue: 5
+  maxZoomValue: 20
+  scrollSpeed: 80
+--- !u!1 &1335364788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1335364789}
+  - component: {fileID: 1335364790}
+  m_Layer: 0
+  m_Name: '@Resources Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1335364789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335364788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1335364790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335364788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd03f2d679a3624087642a51750dddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyBonusPrice: 50
+  energyEfficiencyPrice: 100
+  energyDropRatePrice: 300
+  scienceBonusPrice: 80
+  scienceEfficiencyPrice: 250
+  scienceDropRatePrice: 0
+  energyAddTimerPrice: 7
+  scienceAddTimerPrice: 8
+  energyPoints: 0
+  sciencePoints: 0
+  energyBonus: 0
+  energyEfficiency: 0
+  energyDropRate: 0
+  scienceBonus: 0
+  scienceEfficiency: 0
+  scienceDropRate: 0
+  energyAddAmount: 4
+  scienceAddAmount: 2
+  energyAddTimer: 7
+  scienceAddTimer: 5
+  energyTextObj: {fileID: 0}
+  scienceTextObj: {fileID: 0}
+  energyPeriodText: {fileID: 0}
+  sciencePeriodText: {fileID: 0}
+--- !u!1 &1340614264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1340614265}
+  - component: {fileID: 1340614266}
+  - component: {fileID: 31840772}
+  - component: {fileID: 31840773}
+  - component: {fileID: 7187945393280924959}
+  - component: {fileID: 334892319}
+  m_Layer: 0
+  m_Name: '@Upgrade Stats Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1340614265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340614264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1340614266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340614264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bdb33891f3957d4ebbbaec485d9d5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeStatMultiplier: 1.26
+  upgradeMainTurretRegenStatMultiplier: 1.585
+--- !u!114 &31840772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340614264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c14b0b071b5aea44a412ed57370651e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeSecondaryTurretsDamageMultiplier: 1.3105
+--- !u!114 &31840773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340614264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c821418a07c8d3447a5316430fc13551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeMortarDamageMultiplier: 1.34
+--- !u!114 &7187945393280924959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340614264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35368a22f125a0c469613c95bcc8140f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeEnergyBlastDamageMultiplier: 1.705
+--- !u!114 &334892319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340614264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8900b1c4c093ba1479825436ec47dcfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeResourcesEnergyBonusMultiplier: 2.2
+  upgradeResourcesScienceBonusMultiplier: 2
+--- !u!1 &1503445809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1503445810}
+  - component: {fileID: 1503445811}
+  m_Layer: 0
+  m_Name: Kongregate SDK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1503445810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503445809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1559531934}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1503445811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503445809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192c7111773538a448ae3e4d32ee49e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1559531933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559531934}
+  m_Layer: 0
+  m_Name: SDK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1559531934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559531933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1503445810}
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1622619259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1622619260}
+  - component: {fileID: 1622619261}
+  m_Layer: 0
+  m_Name: '@Level Manager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1622619260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622619259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1622619261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622619259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39552eeb605f8df4eb9654078dbcae2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1712435292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712435293}
+  - component: {fileID: 1712435294}
+  - component: {fileID: 1296853977}
+  - component: {fileID: 1153191893}
+  - component: {fileID: 3296987018813850040}
+  m_Layer: 0
+  m_Name: '@Turret Controllers'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1712435293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712435292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1712435294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712435292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eca6f9cb3511c24dbfbe3484aa084dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  projectileDamage: 1
+  projectileThrust: 800
+  fireRate: 1
+  turnSpeed: 5
+  range: 8
+  regen: 0.1
+  lifesteal: 0
+  defense: 0
+  blockChance: 0
+  bounceChance: 0
+  bounceAmount: 0
+  critChance: 0
+  critDamage: 1
+  totalHealthPrice: 1
+  projectileDamagePrice: 10
+  projectileThrustPrice: 40
+  fireRatePrice: 120
+  turnSpeedPrice: 25
+  rangePrice: 10
+  regenPrice: 12
+  lifestealPrice: 50
+  defensePrice: 10
+  blockChancePrice: 30
+  bounceChancePrice: 8
+  bounceAmountPrice: 8
+  critChancePrice: 12
+  critDamagePrice: 10
+--- !u!114 &1296853977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712435292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2cd6bdcc591cb243ae39ccfbc43d939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolDown: 15
+  activeTime: 10
+  projectileDamage: 0.5
+  projectileThrust: 1000
+  fireRate: 3
+  turnSpeed: 8
+  range: 6
+  coolDownPrice: 4
+  activeTimePrice: 15
+  projectileDamagePrice: 4
+  projectileThrustPrice: 7
+  fireRatePrice: 7
+  turnSpeedPrice: 5
+  rangePrice: 3
+--- !u!114 &1153191893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712435292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c085a5cf0b560434396d17cd13a421c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolDown: 16
+  activeTime: 10
+  turnSpeed: 0.5
+  range: 10
+  damagePerSecond: 0.2
+  coolDownPrice: 4
+  activeTimePrice: 15
+  projectileDamagePerSecondPrice: 4
+  turnSpeedPrice: 6
+  rangePrice: 3
+--- !u!114 &3296987018813850040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712435292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd51795cfcc31b48ae587b6a4b2bdc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolDown: 16
+  activeTime: 10
+  projectileDamage: 5
+  fireRate: 0.3
+  range: 12
+  minRange: 5
+  coolDownPrice: 4
+  activeTimePrice: 20
+  projectileDamagePrice: 5
+  fireRatePrice: 6
+  rangePrice: 5
+--- !u!1 &1779560793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779560794}
+  - component: {fileID: 1779560795}
+  m_Layer: 0
+  m_Name: '@Enemy Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1779560794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779560793}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1779560795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779560793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971148f98fb00e54badf1844ee515e0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpeed: 1
+  maxSpeed: 2
+  speedFactor: 0
+  bossSpeedFactor: 0
+  stoppingDistance: 1
+  damage: 1
+  bossDamage: 2
+  rewardPower: 0
+  bossRewardPower: 0
+  rewardScience: 0
+  disabledTimer: 0.5
+  bossRewardScience: 0
+--- !u!1 &1889657355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1889657357}
+  - component: {fileID: 1889657356}
+  m_Layer: 0
+  m_Name: '@Object Pool'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1889657357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889657355}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.022166252, y: -0.0021209717, z: -2.0776272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1889657356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889657355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab2e6ca45c540f459905143fdc695e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: enemy
+    prefab: {fileID: 3559773476708719499, guid: 87160f2dca73e3f489dbbece8b0b6ba3,
+      type: 3}
+    size: 100
+  - tag: enemy_death_particle
+    prefab: {fileID: 6958453469428059686, guid: 6ef98921bc8eb6d43b1baa0bc1478d49,
+      type: 3}
+    size: 100
+  - tag: emp_particle
+    prefab: {fileID: 7837216042925584689, guid: 8e99f06d89c24714b8947b7eea621768,
+      type: 3}
+    size: 1
+  - tag: power_particle
+    prefab: {fileID: 1918860094464384727, guid: 03e0f3f0566e7c5408caf1e785690c50,
+      type: 3}
+    size: 1
+  - tag: crit_particle
+    prefab: {fileID: 1481294375836231993, guid: 64154c3f28ed031458436bec4a205102,
+      type: 3}
+    size: 100
+  - tag: crit_tmp
+    prefab: {fileID: 1592396421635242272, guid: cfad77e480647e342ad1119d623ba6e7,
+      type: 3}
+    size: 20
+--- !u!1 &1953189580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1953189581}
+  - component: {fileID: 1953189582}
+  m_Layer: 0
+  m_Name: '@Camera Shake Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1953189581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953189580}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1953189582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953189580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07b1bf0b6628c6e4aa1654249cef25d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  empShakeDuration: 0.1
+  empShakeStrength: 0.5
+  empShakeVibratio: 10
+  empShakeRandomness: 45
+  energyBlastShakeDuration: 0.5
+  energyBlastShakeStrength: 2
+  energyBlastShakeVibratio: 30
+  energyBlastShakeRandomness: 90
+  enemyKillShakeDuration: 0.1
+  enemyKillShakeStrength: 0.1
+  enemyKillShakeVibratio: 2
+  enemyKillShakeRandomness: 90
+  mortarProjectileShakeDuration: 0.1
+  mortarProjectileShakeStrength: 0.4
+  mortarProjectileShakeVibratio: 10
+  mortarProjectileShakeRandomness: 90
+--- !u!1 &2129019795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2129019796}
+  - component: {fileID: 2129019797}
+  m_Layer: 0
+  m_Name: '@GM'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2129019796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129019795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2129019797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129019795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4bbf4bc869fdff468e195757e5f4105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGameOver: 0
+--- !u!1 &1735132987173366621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1735132987173366623}
+  - component: {fileID: 6892241640386844210}
+  m_Layer: 0
+  m_Name: '@Enemy Spawner (5)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1735132987173366623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735132987173366621}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.8, y: 0, z: 24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8501672792811749357}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6892241640386844210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735132987173366621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73759f747cbee8d408fbd40af82bcf92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!1 &2147548844168359347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5901053171342715376}
+  - component: {fileID: 7974781552560843970}
+  m_Layer: 0
+  m_Name: '@Audiolistener Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5901053171342715376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147548844168359347}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7974781552560843970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147548844168359347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4840240cbad4e954ab51c7a4d849067f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3590392152934040203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3590392152934040201}
+  - component: {fileID: 433461654993563066}
+  m_Layer: 0
+  m_Name: '@Enemy Spawner (3)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3590392152934040201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3590392152934040203}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.2, y: 0, z: -21.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8501672792811749357}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433461654993563066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3590392152934040203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73759f747cbee8d408fbd40af82bcf92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!1 &4022455553639470968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7622198672279660907}
+  - component: {fileID: 5642601621922956129}
+  m_Layer: 0
+  m_Name: '@Object Reference Holder'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7622198672279660907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4022455553639470968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5642601621922956129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4022455553639470968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7eda90a126d7684ea80c347203cae11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  secondaryTurret1: {fileID: 0}
+  secondaryTurret2: {fileID: 0}
+  mainTurret: {fileID: 0}
+  laserTurret: {fileID: 0}
+  mortarTurret: {fileID: 0}
+  mortarTurretChildObject: {fileID: 0}
+  secondaryTurretAnimator_1: {fileID: 0}
+  secondaryTurretAnimator_2: {fileID: 0}
+  laserTurretAnimator: {fileID: 0}
+  mortarTurretAnimator: {fileID: 0}
+  enemyMovementJobSystem: {fileID: 217770479}
+  waveSpawner: {fileID: 1158347808199893007}
+  canvas: {fileID: 0}
+  blueScreenPanel: {fileID: 0}
+  menuPanel: {fileID: 0}
+  descriptionPanelObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  allEnemies: []
+  particleDisablers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  TMPBlocked: {fileID: 0}
+  tmpWaveNumber: {fileID: 0}
+  tmpEnemyCounter: {fileID: 0}
+  tmpX0: {fileID: 0}
+  tmpX1: {fileID: 0}
+  tmpX2: {fileID: 0}
+  fontAssetWhite: {fileID: 11400000, guid: 5526eacd7b8dc574090abbae95a36ae0, type: 2}
+  fontAssetBlue: {fileID: 11400000, guid: ebb2c7b74434f1d45bf01f4e5dcaefd2, type: 2}
+  fontAssetRed: {fileID: 11400000, guid: fdf795532d8c50f49b7947af861d8039, type: 2}
+  fontMaterialWhite: {fileID: 21725345230478544, guid: 5526eacd7b8dc574090abbae95a36ae0,
+    type: 2}
+  fontMaterialBlue: {fileID: 21725345230478544, guid: ebb2c7b74434f1d45bf01f4e5dcaefd2,
+    type: 2}
+  fontMaterialRed: {fileID: 21725345230478544, guid: fdf795532d8c50f49b7947af861d8039,
+    type: 2}
+  fadeAnimator: {fileID: 0}
+  tmpOverchargeAuto: {fileID: 0}
+  tmpEMPAuto: {fileID: 0}
+  tmpSecondaryTurretsAuto: {fileID: 0}
+  tmpLaserAuto: {fileID: 0}
+  tmpMortarAuto: {fileID: 0}
+  tmpEnergyBlastAuto: {fileID: 0}
+  tutorialPanel: {fileID: 0}
+  lineRenderer: {fileID: 0}
+  lineRendererSecondaryTurret1: {fileID: 0}
+  lineRendererSecondaryTurret2: {fileID: 0}
+  lineRendererLaserTurret: {fileID: 0}
+  lineRendererMortarTurret: {fileID: 0}
+  lineRendererMortarTurretChild: {fileID: 0}
+  rangeLineMainTurret: {fileID: 0}
+  rangeLineSecondaryTurret1: {fileID: 0}
+  rangeLineSecondaryTurret2: {fileID: 0}
+  rangeLineLaserTurret: {fileID: 0}
+  rangeLineMortarTurret: {fileID: 0}
+  rangeLineMortarTurretChild: {fileID: 0}
+--- !u!1 &5194344574061900656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 80662471329948551}
+  - component: {fileID: 5686018819588679645}
+  m_Layer: 0
+  m_Name: Scripts Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &80662471329948551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5194344574061900656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2129019796}
+  - {fileID: 7622198672279660907}
+  - {fileID: 1779560794}
+  - {fileID: 217770480}
+  - {fileID: 1889657357}
+  - {fileID: 8501672792811749357}
+  - {fileID: 1712435293}
+  - {fileID: 8577662739666833158}
+  - {fileID: 1622619260}
+  - {fileID: 1335364789}
+  - {fileID: 908561844}
+  - {fileID: 5901053171342715376}
+  - {fileID: 14833353}
+  - {fileID: 760849453}
+  - {fileID: 1340614265}
+  - {fileID: 1953189581}
+  - {fileID: 881539822}
+  - {fileID: 741863345}
+  - {fileID: 680541601}
+  - {fileID: 707103118}
+  - {fileID: 1559531934}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5686018819588679645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5194344574061900656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73759f747cbee8d408fbd40af82bcf92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!1 &5260379007783360327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8501672792811749357}
+  - component: {fileID: 1158347808199893007}
+  - component: {fileID: 687997552}
+  - component: {fileID: 1605435860}
+  - component: {fileID: 1605435857}
+  m_Layer: 0
+  m_Name: '@Wave System'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8501672792811749357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260379007783360327}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6013771706999956184}
+  - {fileID: 9184403514910529783}
+  - {fileID: 6777554532410879959}
+  - {fileID: 3590392152934040201}
+  - {fileID: 7001495539028335082}
+  - {fileID: 1735132987173366623}
+  - {fileID: 6475092839580437541}
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1158347808199893007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260379007783360327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a4581690a6300428869ecfb7744fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - name: Wave 1
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 5
+    rate: 1
+    bodyColor: {r: 0.9764706, g: 0.5058824, b: 1, a: 1}
+    emissionColor: {r: 2.2588234, g: 0, b: 2.2588234, a: 1}
+    speedFactor: 0
+    scale: {x: 1, y: 1, z: 1}
+    health: 1
+    rewardPower: 1
+    rewardScience: 0
+    damage: 1
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 2
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 6
+    rate: 1
+    bodyColor: {r: 1, g: 0.28235295, b: 0, a: 1}
+    emissionColor: {r: 2.2588234, g: 0.2838312, b: 0, a: 1}
+    speedFactor: 0
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.1
+    rewardPower: 1
+    rewardScience: 0.1
+    damage: 1
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 3
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 6
+    rate: 1
+    bodyColor: {r: 0, g: 1, b: 0.32156864, a: 1}
+    emissionColor: {r: 0.06553942, g: 0.62590146, b: 0.039323654, a: 1}
+    speedFactor: 1
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.2
+    rewardPower: 1
+    rewardScience: 0.1
+    damage: 1.2
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 4
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 30
+    rate: 1
+    bodyColor: {r: 1, g: 0.9728835, b: 0, a: 1}
+    emissionColor: {r: 1.1686275, g: 1.1686275, b: 0.07058824, a: 1}
+    speedFactor: 1.5
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.2
+    rewardPower: 1
+    rewardScience: 0.1
+    damage: 1.2
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  - name: Wave 5
+    enemy: {fileID: 3559773476708719503, guid: 87160f2dca73e3f489dbbece8b0b6ba3, type: 3}
+    count: 40
+    rate: 1
+    bodyColor: {r: 1, g: 0, b: 0.09803922, a: 1}
+    emissionColor: {r: 1.5576702, g: 0.04886809, b: 0, a: 1}
+    speedFactor: 2
+    scale: {x: 1, y: 1, z: 1}
+    health: 1.3
+    rewardPower: 2
+    rewardScience: 0.2
+    damage: 1.5
+    bossScale: {x: 2, y: 2, z: 2}
+    bossHealth: 10
+    bossRewardPower: 4
+    bossRewardScience: 0.5
+    bossDamage: 5
+    isLastWave: 0
+  nextWave: -1
+  spawnPoints:
+  - {fileID: 6013771706999956184}
+  - {fileID: 9184403514910529783}
+  - {fileID: 6777554532410879959}
+  - {fileID: 3590392152934040201}
+  - {fileID: 7001495539028335082}
+  - {fileID: 1735132987173366623}
+  - {fileID: 6475092839580437541}
+  state: 1
+  _btnNextWave: {fileID: 0}
+  currentWaveCount: 0
+--- !u!114 &687997552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260379007783360327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48e21fc4845cda94fbc3d3f89806dcb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initWaveCount: 5
+  initSpawnRate: 1
+  initSpeedFactor: 1.5
+  initEnemyHealth: 1
+  initEnemyDamage: 5
+  initRewardPower: 1
+  initBossHealth: 3
+  initBossDamage: 20
+  initBossRewardPower: 10
+  initBossRewardScience: 25
+  waveCountMultiplier: 1.07
+  waveSpawnRateMultiplier: 1.035
+  waveEnemySpeedFactor: 1.02
+  enemyHealthMultiplier: 1.1045
+  enemyDamageMultiplier: 1.0425
+  enemyRewardPowerMultiplier: 1.09
+  enemyBossHealthMultiplier: 1.1125
+  enemyBossDamageMultiplier: 1.05
+  enemyBossRewardPowerMultiplier: 1.13
+  enemyBossRewardScienceMultiplier: 1.155
+  bodyColor:
+  - {r: 0.9764706, g: 0.5058824, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0.32156864, a: 1}
+  - {r: 1, g: 0.28235295, b: 0, a: 1}
+  - {r: 1, g: 0.9728835, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0.09803922, a: 1}
+  - {r: 0.88235295, g: 0.4392157, b: 0.33333334, a: 1}
+  - {r: 0.99215686, g: 0.79607844, b: 0.43137255, a: 1}
+  - {r: 0.42352942, g: 0.36078432, b: 0.90588236, a: 1}
+  - {r: 0.9098039, g: 0.2627451, b: 0.5764706, a: 1}
+  - {r: 0, g: 0.80784315, b: 0.7882353, a: 1}
+  emissionColor:
+  - {r: 4.5176463, g: 0, b: 4.5176463, a: 1}
+  - {r: 0.13333334, g: 1.254902, b: 0.078431375, a: 1}
+  - {r: 2.2588232, g: 0.28383118, b: 0, a: 1}
+  - {r: 2.3372552, g: 2.3372552, b: 0.14684327, a: 1}
+  - {r: 3.1153405, g: 0.0978641, b: 0, a: 1}
+  - {r: 3.727607, g: 0.58548796, b: 0.48790666, a: 1}
+  - {r: 3.562232, g: 1.6039369, b: 0.22380514, a: 1}
+  - {r: 0.40491116, g: 0.074983545, b: 2.8643715, a: 1}
+  - {r: 2.5897055, g: 0.162704, b: 0.732168, a: 1}
+  - {r: 0, g: 3.1153405, b: 2.218253, a: 1}
+--- !u!120 &1605435860
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260379007783360327}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+--- !u!114 &1605435857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260379007783360327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbcee8b44c4e834aaa6633648cb2c51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  segments: 100
+  radius: 38
+  spawnPoints: []
+--- !u!1 &5442315405555915035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8010890299956973204}
+  m_Layer: 0
+  m_Name: emp_blast_pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8010890299956973204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5442315405555915035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8577662739666833158}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6013771706999956186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6013771706999956184}
+  - component: {fileID: 1921508134859053728}
+  m_Layer: 0
+  m_Name: '@Enemy Spawner'
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6013771706999956184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6013771706999956186}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.5, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8501672792811749357}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1921508134859053728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6013771706999956186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73759f747cbee8d408fbd40af82bcf92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!1 &6475092839580437543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6475092839580437541}
+  - component: {fileID: 6896984394091540138}
+  m_Layer: 0
+  m_Name: '@Enemy Spawner (6)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6475092839580437541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6475092839580437543}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.8, y: 0, z: 5.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8501672792811749357}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6896984394091540138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6475092839580437543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73759f747cbee8d408fbd40af82bcf92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!1 &6777554532410879957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6777554532410879959}
+  - component: {fileID: 8123409541725861981}
+  m_Layer: 0
+  m_Name: '@Enemy Spawner (2)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6777554532410879959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6777554532410879957}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.6, y: 0, z: 16.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8501672792811749357}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8123409541725861981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6777554532410879957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73759f747cbee8d408fbd40af82bcf92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!1 &7001495539028335080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7001495539028335082}
+  - component: {fileID: 3469706697956974034}
+  m_Layer: 0
+  m_Name: '@Enemy Spawner (4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7001495539028335082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7001495539028335080}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.82, y: 0, z: -16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8501672792811749357}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3469706697956974034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7001495539028335080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73759f747cbee8d408fbd40af82bcf92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!1 &8291130197884888065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8577662739666833158}
+  - component: {fileID: 3892514542110488617}
+  - component: {fileID: 1476766405}
+  - component: {fileID: 1476766406}
+  - component: {fileID: 1476766407}
+  - component: {fileID: 1476766408}
+  - component: {fileID: 1476766409}
+  - component: {fileID: 1476766410}
+  m_Layer: 0
+  m_Name: '@Skills Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8577662739666833158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291130197884888065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8010890299956973204}
+  m_Father: {fileID: 80662471329948551}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3892514542110488617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291130197884888065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c303e9621713014c86435a39cacaf31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overchargeCoolDownPrice: 15
+  overchargeActiveDurationPrice: 80
+  overchargePowerupPrice: 100
+  empCoolDownPrice: 50
+  empStunDurationPrice: 400
+  energyBlastCoolDownPrice: 150
+  energyBlastDamagePrice: 800
+  overChargeCoolDown: 14
+  empCoolDown: 25
+  energyCoolDown: 25
+  overChargeActiveTime: 7
+  overchargeInitializeDelay: 0.4
+  overchargePowerup: 1.2
+  energyBlastDamage: 4
+  canActivateOvercharge: 1
+  canActivateEmp: 1
+  canActivateSecondaryTurret: 1
+  canActivateLaser: 1
+  canActivateMortar: 1
+  canActivateEnergy: 1
+  overchargeParticles:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  empBlastPosition: {fileID: 8010890299956973204}
+--- !u!114 &1476766405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291130197884888065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ee128175d2f0146a5bf0642b03e7b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAutoMortar: 0
+--- !u!114 &1476766406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291130197884888065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34b9fef922bdad4e86e3b9aea50b427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAutoLaser: 0
+--- !u!114 &1476766407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291130197884888065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b63d1b7bed7a04bb4aff39f1b11fc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAutoSecondaryTurrets: 0
+--- !u!114 &1476766408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291130197884888065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b769165b7a02445864820af2f32f3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAutoEMP: 0
+--- !u!114 &1476766409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291130197884888065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b502c30b081869e4ba08da18a1206309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAutoOvercharge: 0
+--- !u!114 &1476766410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291130197884888065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a107bb8dc3edd46b4cfd801377117c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAutoEnergyWave: 0
+--- !u!1 &9184403514910529781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9184403514910529783}
+  - component: {fileID: 1074521018012478052}
+  m_Layer: 0
+  m_Name: '@Enemy Spawner (1)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &9184403514910529783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9184403514910529781}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.6, y: 0, z: -13.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8501672792811749357}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1074521018012478052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9184403514910529781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73759f747cbee8d408fbd40af82bcf92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
